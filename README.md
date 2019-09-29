@@ -3,6 +3,7 @@
   - [Introduction to loops](#introduction-to-loops)
   - [For each Loop](#for-each-loop)
     - [Understanding the for loop](#understanding-the-for-loop)
+  - [Exercise](#exercise)
 
 ## Introduction to loops
 Imagine the following exercise:
@@ -26,3 +27,9 @@ Let's break the first line into small pieces, so we can understand everything th
 - **for counter in**: Declares a variable *counter*, that will only exist inside this block of code. 
 
 The variable *counter* will get the fist value from the range function, which is *0*. when we reach the end of the block of code, the value of the *counter* will change for the next value in the range, until we run out of numbers. This means that the loop will be executed three times, in this example.
+
+
+## Exercise
+
+We are still improving the example of cups of coffee from the last classes.
+So far we are asking for exactly three days. Now, we are going to ask for how many days the user want to calculate, and then calculating the average number of cups of coffee taken. The same conditionals and messages will be used in this example.
